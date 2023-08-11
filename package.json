@@ -1,0 +1,30 @@
+{
+  "name": "bookshelfapidicoding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "eslint ./",
+    "start-dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaradaKumiko/bookshelfapidicoding.git"
+  },
+  "author": "HaradaKumiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaradaKumiko/bookshelfapidicoding/issues"
+  },
+  "homepage": "https://github.com/HaradaKumiko/bookshelfapidicoding#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "nanoid": "^3.1.22"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.0"
+  }
+}
